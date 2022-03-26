@@ -3,7 +3,7 @@
 # Email: diego.devops@hotmail.com
 # Script to check Kubernetes Health
 # How to use: sudo chmod +x ./checkstatus.sh && ./checkstatus.sh
-# Script tested on bash version: 5.0.17
+# Script tested on bash version: 5.0.17 and Kubernetes Version 1.21
 # Dependencies: jq (1.6 tested)
 
 HEALTH_EMJ=$(perl -CO -E 'say "\N{U+2705}"')
